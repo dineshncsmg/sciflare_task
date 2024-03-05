@@ -90,8 +90,8 @@ const StudentList = () => {
         Add Student
       </Button>
       {students.length > 0 && (
-        <Paper>
-          <Table>
+        <Paper style={{ overflowX: 'auto' }}>
+          <Table style={{ minWidth: 650 }}>
             <TableHead>
               <TableRow>
                 <TableCell>Name</TableCell>
